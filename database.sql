@@ -1,0 +1,10 @@
+CREATE DATABASE test;
+
+USE test;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    fio VARCHAR(255) NOT NULL,
+    phone VARCHAR(50) NOT NULL,
+    age int NOT NULL
+);
